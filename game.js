@@ -582,9 +582,9 @@ function draw() {
         ctx.fillStyle = '#00ffea';
         ctx.font = '36px Orbitron, sans-serif';
         ctx.textAlign = 'center';
-        ctx.fillText("Congratulations!", canvas.width / 2, 250);
+        ctx.fillText("Congratulations Zoran !", canvas.width / 2, 250);
         ctx.fillText("You've freed up time to order", canvas.width / 2, 320);
-        ctx.fillText("Jonas new work laptop!! Hurry Up !!", canvas.width / 2, 380);
+        ctx.fillText("Jonas a new client+ laptop!! Hurry Up !!", canvas.width / 2, 380);
         ctx.font = '20px Orbitron, sans-serif';
         ctx.fillStyle = '#ffffff';
         ctx.fillText(`Replay in ${Math.ceil(endTimer)} seconds`, canvas.width / 2, 500);
