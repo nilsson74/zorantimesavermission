@@ -491,6 +491,7 @@ function draw() {
         ctx.textAlign = 'center';  // Center all text
 
         const infoTexts = [
+            "HELLO ZORAN !!",
             "The average time it takes to order a new employee laptop",
             "computer at Iver is atleast 40 hours !!!! You need to",
             "free your schedule by shooting down time-consuming",
