@@ -1,0 +1,50 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    background-color: #000; /* Black background for the game */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Orbitron', sans-serif;
+    color: #ffffff;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+/* Game Container */
+#gameContainer {
+    position: relative;
+}
+
+/* Canvas Styling */
+#gameCanvas {
+    border: 2px solid #00ffea;
+    background-color: #000; /* Ensure the canvas has a black background */
+    display: block;
+}
+
+/* Mute Button Styling */
+#muteButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    border: 2px solid #00ffea;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#muteButton:hover {
+    background-color: #00ffea;
+    color: #000000;
+}
